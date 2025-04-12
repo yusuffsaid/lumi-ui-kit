@@ -1,0 +1,29 @@
+{
+    "name": "lumi-ui-kit",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "storybook": "storybook dev -p 6006",
+        "build-storybook": "storybook build"
+    },
+    "dependencies": {
+        "lit": "^3.2.1"
+    },
+    "devDependencies": {
+        "@chromatic-com/storybook": "^3",
+        "@storybook/addon-essentials": "^8.6.12",
+        "@storybook/blocks": "^8.6.12",
+        "@storybook/experimental-addon-test": "^8.6.12",
+        "@storybook/test": "^8.6.12",
+        "@storybook/web-components": "^8.6.12",
+        "@storybook/web-components-vite": "^8.6.12",
+        "storybook": "^8.6.12",
+        "typescript": "~5.7.2",
+        "vite": "^6.2.0"
+    },
+    "packageManager": "pnpm@9.7.0+sha512.dc09430156b427f5ecfc79888899e1c39d2d690f004be70e05230b72cb173d96839587545d09429b55ac3c429c801b4dc3c0e002f653830a420fa2dd4e3cf9cf"
+}
